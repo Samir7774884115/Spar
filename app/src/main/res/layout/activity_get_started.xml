@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#db3b3b"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".GetStartedActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/sparlogo"
+        android:layout_gravity="center"
+        android:padding="100dp"
+        android:id="@+id/imageView1"
+        android:background="@drawable/sparhome"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/welcometext"
+        android:textStyle="bold"
+        android:textColor="@color/colorwhite"
+        android:layout_margin="7dp"
+        android:textSize="16dp"
+        android:padding="5dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/welcometxt"
+        android:layout_below="@+id/imageView1"
+
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <Button
+        android:id="@+id/btngetstarted"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcometxt"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="true"
+        android:background="@drawable/buttonshapegetstarted"
+        android:text="@string/getstartedtxt"
+        android:textColor="#407a51"
+        android:textSize="18dp"></Button>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shopbucategory"
+            android:icon="@drawable/discount"
+            android:title="@string/menu_shopby" />
+        <item
+            android:id="@+id/nv_deals"
+            android:icon="@drawable/discount"
+            android:title="@string/menu_deals" />
+        <item
+            android:id="@+id/nav_lists"
+            android:icon="@drawable/wishlist"
+            android:title="@string/menu_lists" />
+
+        <item
+            android:id="@+id/nav_recipes"
+            android:icon="@drawable/recipe"
+            android:title="@string/menu_recipes"/>
+
+        <item
+            android:id="@+id/nav_track"
+            android:icon="@drawable/samtrack"
+            android:title="@string/menu_trackorder" />
+
+        <item
+            android:id="@+id/nav_aboutspar"
+            android:icon="@drawable/sparicon"
+            android:title="@string/menu_aboutspar" />
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/notification"
+            android:title="@string/menu_notifications" />
+
+        <item
+            android:id="@+id/nav_faqs"
+            android:icon="@drawable/discount"
+            android:title="@string/menu_faqs" />
+
+        <item
+            android:id="@+id/nav_rateapp"
+            android:icon="@drawable/discount"
+            android:title="@string/menu_rateapp" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/helpsu"
+            android:title="@string/menu_help" />
+        <item
+            android:id="@+id/nav_refer"
+            android:icon="@drawable/user"
+            android:title="@string/menu_refer" />
+
+
+    </group>
+
+</menu>

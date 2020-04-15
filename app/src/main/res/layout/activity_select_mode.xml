@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SelectModeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="normal"
+        android:textSize="16dp"
+        android:textColor="@color/colorblack"
+        android:id="@+id/txtselectmode"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Please Select Mode">
+
+
+    </TextView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/linearlayoutshape"
+
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="7dp"
+        android:background="@color/colorwhite"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="0dp"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:layout_marginTop="10dp"
+
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/cnc"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+    <Button
+        android:id="@+id/btncnc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#377449"
+        android:textAllCaps="true"
+        android:layout_marginTop="15dp"
+        android:text="CLICK N COLLECT"
+        android:layout_gravity="center"
+        android:textColor="@color/colorwhite"
+        android:textSize="14dp">
+
+    </Button>
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_marginTop="10dp"
+
+            android:orientation="vertical"
+            android:layout_weight="1"
+
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/delivery"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+            <Button
+                android:id="@+id/btndelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:background="#377449"
+                android:textAllCaps="true"
+                android:text="Delivery"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorwhite"
+                android:textSize="14dp">
+
+            </Button>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:background="@color/colorwhite"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/txtaddress"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:textStyle="normal"
+                android:textSize="11sp"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="BG Road, Bengaluru"
+                android:textColor="@color/colorblack" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:text="002, Loreum Ipsum, Loreum Apartments,Loreum Road, Ipsum Layout, BDA,Bangalore, Karnataka 560001, India "
+               android:textColor="@color/colorblack"
+               android:textSize="13dp"
+               android:layout_margin="7dp"
+               android:textStyle="normal"
+
+               android:layout_height="wrap_content">
+
+           </TextView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.2dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@color/colorblack"/>
+
+                <CheckBox
+                    android:id="@+id/txtaddress"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:textStyle="normal"
+                    android:textSize="11sp"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="BG Road, Bengaluru"
+                    android:textColor="@color/colorblack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="002, Loreum Ipsum, Loreum Apartments,Loreum Road, Ipsum Layout, BDA,Bangalore, Karnataka 560001, India "
+                    android:textColor="@color/colorblack"
+                    android:textSize="13dp"
+                    android:layout_margin="7dp"
+                    android:textStyle="normal"
+
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.2dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@color/colorblack"/>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btncontinue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:background="#377449"
+                android:textAllCaps="true"
+                android:text="CONTINUE"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorwhite"
+                android:textSize="14dp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btnskip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:background="@null"
+                android:textAllCaps="true"
+                android:text="SKIP"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorblack"
+                android:textSize="14dp">
+
+            </Button>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

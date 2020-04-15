@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Spar</string>
+    <string name="welcometext">Welcome To SPAR</string>
+    <string name="getstartedtxt">GET STARTED</string>
+    <string name="signinbtntxt">SIGN IN</string>
+    <string name="signupbtntxt">SIGN UP</string>
+    <string name="emailtext">Please check Varification Code sent to your email address</string>
+    <string name="forgotpasswordtxt"><u>Forgot Password?</u></string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="txtagree">I agree to the <u> Terms of Use</u></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">Welcome Customer</string>
+    <string name="nav_header_subtitle">Sign In/Sign Up</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dash_board">DashBoardActivity</string>
+
+    <string name="menu_shopby">Shop by Category</string>
+    <string name="menu_deals">Exclusives and Deals</string>
+    <string name="menu_lists">Curated Shopping Lists</string>
+    <string name="menu_recipes">Recipes</string>
+    <string name="menu_trackorder">Track Order</string>
+    <string name="menu_aboutspar">About Spar</string>
+    <string name="menu_notifications">Notifications</string>
+    <string name="menu_faqs">FAQ</string>
+    <string name="menu_rateapp">Rate our app</string>
+    <string name="menu_help">Help and Support</string>
+    <string name="menu_refer">Refer and Earn</string>
+
+
+    <string name="home_second">Home Second</string>
+
+
+</resources>

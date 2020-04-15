@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#db3b3b"
+    tools:context=".OtpAuthenticationActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/sparlogo"
+        android:layout_gravity="center"
+        android:padding="100dp"
+        android:alpha="0.5"
+        android:background="@drawable/sparhome"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/linearlayoutshape"
+
+        android:layout_marginLeft="15dp"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/sparlogo"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emailtext"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/colorblack"
+            android:textStyle="normal"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:weightSum="2"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="email@email.com"
+            android:textSize="12dp"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/emailtextview"
+
+            android:textColor="@color/colorblack"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Change"
+            android:textColor="@color/colorblack"
+            android:layout_marginRight="5dp"
+            android:textSize="15sp"
+            android:background="@drawable/buttonshapegetstarted"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/changeemail"
+            android:textStyle="normal"
+
+
+            android:layout_height="35dp">
+
+        </Button>
+
+
+</LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="normal"
+            android:textSize="15dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/colorblack"
+            android:layout_gravity="center"
+            android:text="Enter Varification Code"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:layout_gravity="center">
+
+            <EditText
+                android:id="@+id/et1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:inputType="phone"
+                android:maxLength="1"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColorHint="#BDBDBD"
+                android:backgroundTint="#BDBDBD"
+                android:textColor="@color/colorblack"
+                android:layout_weight="1"
+                android:textAlignment="center" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="0dp" />
+
+            <EditText
+                android:id="@+id/et2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:inputType="phone"
+                android:maxLength="1"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColorHint="#BDBDBD"
+                android:backgroundTint="#BDBDBD"
+                android:textColor="@color/colorblack"
+                android:layout_weight="1"
+                android:textAlignment="center" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="0dp" />
+
+            <EditText
+                android:id="@+id/et3"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:inputType="phone"
+                android:maxLength="1"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColorHint="#BDBDBD"
+                android:backgroundTint="#BDBDBD"
+                android:textColor="@color/colorblack"
+                android:layout_weight="1"
+                android:textAlignment="center" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="0dp" />
+
+            <EditText
+                android:id="@+id/et4"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:inputType="phone"
+                android:layout_weight="1"
+                android:maxLength="1"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColorHint="#BDBDBD"
+                android:backgroundTint="#BDBDBD"
+                android:textColor="@color/colorblack"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+        <!--<TextView
+            android:layout_width="130dp"
+            android:layout_gravity="center"
+            android:text=" 2  3  4  4 "
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000000"
+            android:background="@drawable/buttonshapegetstarted"
+            android:layout_height="wrap_content">
+
+        </TextView>-->
+
+
+
+        <Button
+            android:layout_width="150dp"
+            android:text="Request Code Again"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:textSize="12sp"
+            android:textColor="@color/colorblack"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/requestcodeagain"
+            android:textStyle="normal"
+
+            android:background="@drawable/buttonshapegetstarted"
+
+            android:layout_height="40dp">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/btnverifyotp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:background="#db3b3b"
+            android:textAllCaps="true"
+            android:text="VERIFY OTP"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:textColor="@color/colorwhite"
+            android:textSize="18dp"></Button>
+
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
